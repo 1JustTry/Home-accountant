@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS payment (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    payment_description TEXT NOT NULL,
+    price REAL NOT NULL,
+    quantity INTEGER NOT NULL DEFAULT 1,
+    planned TIMESTAMP NOT NULL
+    );
